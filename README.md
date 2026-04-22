@@ -16,3 +16,9 @@
     [View the Live App Here](https://partyrock.aws/u/sstraus/XZj8BH4RG/Daily-Task-Scheduler-AI)
     
     ---
+
+
+### **Key Skills Demonstrated (Project 1):**
+* **Generative AI Implementation:** Building functional applications using Foundation Models (FMs).
+* **Advanced Prompt Engineering:** Using system-level instructions to control AI logic and output formatting.
+* **Rapid Prototyping:** Utilizing AWS specialized tools (PartyRock) to move from concept to a live, shareable application in minutes.
