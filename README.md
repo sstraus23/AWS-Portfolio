@@ -41,4 +41,3 @@ The Python script successfully processed `AWS Rekognition video.mp4` and asynchr
 - **Label: Paparazzi** | Time Found: 5500ms
 - **Label: Video Camera** | Time Found: 5500ms
 - **Label: Photography** | Time Found: 6000ms
-- 
