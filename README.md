@@ -1,5 +1,11 @@
 # AWS Portfolio
     This repository contains projects developed as part of my transition into Cloud Technology.
+## Certifications & Training
+* **AWS Certified Cloud Practitioner** (Passed April 2026)
+* **Targeting:** AWS Certified Solutions Architect – Associate (Expected 2026)
+* **Skills:** Python (Boto3), Cloud Architecture, AI/ML Integration
+
+---
     
     ## Project 1: AI-Powered Daily Task Scheduler
     Built using **Amazon PartyRock** (powered by **Amazon Bedrock**).
