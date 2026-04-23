@@ -6,6 +6,9 @@
 * **Skills:** Python (Boto3), Cloud Architecture, AI/ML Integration
 
 ---
+
+## Project 1: AI-Powered Daily Task Scheduler
+---
     
     ## Project 1: AI-Powered Daily Task Scheduler
     Built using **Amazon PartyRock** (powered by **Amazon Bedrock**).
