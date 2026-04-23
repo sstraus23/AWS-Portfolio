@@ -35,3 +35,10 @@ This project automates the process of "watching" videos to detect and label obje
 * **Asynchronous Cloud Workflows:** Implementing polling logic to handle long-running tasks that don't finish instantly.
 * **Computer Vision API Integration:** Leveraging deep learning models via AWS Rekognition for automated metadata extraction.
 * **Automated Data Processing:** Handling unstructured video data stored in Amazon S3 via the Boto3 SDK.
+### Sample Output from Amazon Rekognition:
+The Python script successfully processed `AWS Rekognition video.mp4` and asynchronously extracted timestamps and labels in real-time. Here is a sample of the log:
+- **Label: Interview** | Time Found: 5500ms
+- **Label: Paparazzi** | Time Found: 5500ms
+- **Label: Video Camera** | Time Found: 5500ms
+- **Label: Photography** | Time Found: 6000ms
+- 
