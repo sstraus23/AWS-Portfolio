@@ -22,3 +22,16 @@
 * **Generative AI Implementation:** Building functional applications using Foundation Models (FMs).
 * **Advanced Prompt Engineering:** Using system-level instructions to control AI logic and output formatting.
 * **Rapid Prototyping:** Utilizing AWS specialized tools (PartyRock) to move from concept to a live, shareable application in minutes.
+
+---
+
+## Project 2: AI Video Analysis with Rekognition
+**Built using:** Python (Boto3), Amazon Rekognition, and Amazon S3.
+
+### **Description**
+This project automates the process of "watching" videos to detect and label objects, scenes, and activities. Unlike static images, video analysis requires asynchronous processing; this script initiates a detection job, monitors its status in real-time, and extracts unique labels once the analysis is complete.
+
+### **Key Skills Demonstrated:**
+* **Asynchronous Cloud Workflows:** Implementing polling logic to handle long-running tasks that don't finish instantly.
+* **Computer Vision API Integration:** Leveraging deep learning models via AWS Rekognition for automated metadata extraction.
+* **Automated Data Processing:** Handling unstructured video data stored in Amazon S3 via the Boto3 SDK.
