@@ -50,3 +50,16 @@ The Python script successfully processed `AWS Rekognition video.mp4` and asynchr
 - **Label: Paparazzi** | Time Found: 5500ms
 - **Label: Video Camera** | Time Found: 5500ms
 - **Label: Photography** | Time Found: 6000ms
+---
+## Project 3: Serverless AI Text Narrator
+Built using **AWS Lambda**, **Amazon Polly**, and **Amazon S3**.
+### Description
+An event-driven application that converts text into lifelike speech. This project leverages a Node.js Lambda function to process text inputs, synthesize audio via Amazon Polly, and automatically store the resulting MP3 files in a dedicated S3 bucket.
+
+### Key Skills Demonstrated
+* **Serverless Logic:** Implementing asynchronous event handling using **Node.js 22.x** and ES Modules.
+* **AI Service Integration:** Configuring and calling the **Amazon Polly SDK** for high-quality speech synthesis.
+* **Secure Cloud Storage:** Managing automated file uploads to **Amazon S3** with proper content-type headers.
+* **IAM Governance:** Creating execution roles with **least-privilege permissions** for cross-service communication.
+* ### Project Link
+[View the Source Code here](./Text-Narrator)
