@@ -62,4 +62,4 @@ An event-driven application that converts text into lifelike speech. This projec
 * **Secure Cloud Storage:** Managing automated file uploads to **Amazon S3** with proper content-type headers.
 * **IAM Governance:** Creating execution roles with **least-privilege permissions** for cross-service communication.
 * ### Project Link
-[View the Source Code here](./Text-Narrator)
+* [View the Source Code here](./Text-Narrator)
