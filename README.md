@@ -63,3 +63,29 @@ An event-driven application that converts text into lifelike speech. This projec
 * **IAM Governance:** Creating execution roles with **least-privilege permissions** for cross-service communication.
 * ### Project Link
 * [View the Source Code here](./Text-Narrator)
+---
+## Project 4: AI-Powered Multi-Language Translator Bot
+**Built using:** Amazon Lex V2, AWS Lambda (Python/Boto3), and Amazon Translate.
+
+### Description
+An interactive, event-driven chatbot that provides real-time text translation. This project demonstrates the integration of conversational AI with cloud-native machine learning services, allowing users to translate text into Spanish, German, Italian, or French through a natural chat interface.
+
+### Key Skills Demonstrated
+* **Conversational AI Design:** Developed a Lex V2 bot with custom intents and slot elicitation (Language, Text).
+* **Serverless Logic:** Wrote a Python Lambda function using the **Boto3 SDK** to bridge the chatbot with translation services.
+* **IAM Governance:** Configured least-privilege permissions (`TranslateFullAccess`) for secure service-to-service communication.
+
+### Challenges & Troubleshooting (Overcoming Obstacles)
+One of the most valuable parts of this project was navigating real-world technical challenges during the integration phase:
+
+* **The Challenge:** Encountered a persistent "Something went wrong" error during fulfillment.
+* **The Investigation:** Debugged the Lambda logs in CloudWatch to find a `KeyError`. I identified a case-sensitivity mismatch between the Lex Slot names (`Language`/`Text`) and the Python dictionary keys in the code.
+* **The Solution:** Standardized all slot references to match the Lex V2 JSON structure, specifically targeting the `['value']['interpretedValue']` path to ensure the Lambda received the actual user string rather than the raw metadata object.
+
+* **The Challenge:** Resolved a `SubscriptionRequiredException` that blocked API calls to Amazon Translate.
+* **The Solution:** Verified account activation status and ensured the IAM Execution Role had the specific service-linked permissions required to invoke the Translate API.
+
+
+
+
+
