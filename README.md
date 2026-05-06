@@ -84,7 +84,8 @@ One of the most valuable parts of this project was navigating real-world technic
 
 * **The Challenge:** Resolved a `SubscriptionRequiredException` that blocked API calls to Amazon Translate.
 * **The Solution:** Verified account activation status and ensured the IAM Execution Role had the specific service-linked permissions required to invoke the Translate API.
-
+### Project Link
+* [View the Source Code here](https://github.com/sstraus23/AWS-Portfolio/blob/main/Text-Translator/Lambda_function.py)
 
 
 
