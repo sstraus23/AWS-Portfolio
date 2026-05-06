@@ -69,6 +69,7 @@ An event-driven application that converts text into lifelike speech. This projec
 
 ### Description
 An interactive, event-driven chatbot that provides real-time text translation. This project demonstrates the integration of conversational AI with cloud-native machine learning services, allowing users to translate text into Spanish, German, Italian, or French through a natural chat interface.
+![Translator Demo](Text-Translator/AWS%20LEX%20Github%20project%204.png)
 
 ### Key Skills Demonstrated
 * **Conversational AI Design:** Developed a Lex V2 bot with custom intents and slot elicitation (Language, Text).
