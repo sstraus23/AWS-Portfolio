@@ -102,6 +102,14 @@ A deployed web application that allows users to manage a personal bucket list in
 * **Amazon DynamoDB:** Provisioned a serverless NoSQL database to store and sync user items in real-time.
 * **Infrastructure as Code (IaC):** Defined backend resources (Auth and Data) directly in TypeScript using Amplify Gen 2.
 
+* ## 🛠️ Challenges & Troubleshooting (Overcoming Obstacles)
+One of the most valuable parts of this project was navigating real-world technical challenges during the deployment and integration phases:
+
+* **The Challenge:** Encountered a "Vite + React" default page on the live URL even after a successful Amplify deployment.
+    * **The Solution:** Identified this as a browser caching issue. Resolved it by performing a **Hard Refresh (Ctrl + Shift + R)** to bypass the cache and force the browser to pull the latest build artifacts from the Amplify edge locations.
+* **The Challenge:** Initial login attempts on the production URL resulted in "Incorrect Username/Password" errors, despite working on the local sandbox.
+    * **The Solution:** Identified a synchronization gap between the local sandbox user pool and the production environment. Resolved this by creating a new verified user account directly on the **live production URL**, ensuring the frontend was correctly communicating with the **us-west-1** regional Cognito User Pool.
+
 ### Project Links
 * [View the Live App Here](https://main.d2lei4lpo08ci5.amplifyapp.com/)
 * [View the Detailed Source Code](https://github.com/sstraus23/bucketlistapp)
