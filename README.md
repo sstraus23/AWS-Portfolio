@@ -89,6 +89,21 @@ One of the most valuable parts of this project was navigating real-world technic
 ### Project Link
 * [View the Source Code here](https://github.com/sstraus23/AWS-Portfolio/blob/main/Text-Translator/Lambda_function.py)
 
+---
+## Project 5: Full-Stack Bucket List Tracker
+Built using **AWS Amplify Gen 2**, **React**, and **Amazon DynamoDB**.
 
+### Description
+A deployed web application that allows users to manage a personal bucket list in real-time. This project demonstrates a complete "Cloud-Native" development workflow, moving from a local sandbox environment to a live production URL with automated CI/CD.
+
+### Key AWS Services & Concepts
+* **AWS Amplify Hosting:** Managed the frontend deployment and hosting with automated builds from GitHub.
+* **Amazon Cognito:** Implemented a secure "Sign-In" and "Sign-Up" flow with email verification.
+* **Amazon DynamoDB:** Provisioned a serverless NoSQL database to store and sync user items in real-time.
+* **Infrastructure as Code (IaC):** Defined backend resources (Auth and Data) directly in TypeScript using Amplify Gen 2.
+
+### Project Links
+* [View the Live App Here](https://main.d2lei4lpo08ci5.amplifyapp.com/)
+* [View the Detailed Source Code](https://github.com/sstraus23/bucketlistapp)
 
 
